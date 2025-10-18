@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetNameIt 🐾</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <h1>🐾 PetNameIt</h1>
+    <p>Generate adorable pet names by gender!</p>
+    
+    <div class="gender-select">
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+    </div>
+
+    <button id="generateBtn">🎲 Generate Pet Name</button>
+
+    <div id="nameList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
